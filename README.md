@@ -20,7 +20,7 @@ A total of 40 packages must be delivered. Three mail trucks and two drivers are 
 ## Solution
 A heuristic using the nearest neighbor algorithm is implemented in the solution. The algorithm sorts the addresses of the packages and quickly produces sufficiently efficient routes for the three trucks. All packages are delivered on time with a total truck mileage of 103.9 miles, well under the 140-mile constraint.
 
-To further learn about data structures, a custom hash table is implemented in the `hashtable.py` module. The hash table handles the insertion, storage, and retrieval of packages.
+To further learn about data structures, a custom hash table is implemented in the `hashtable.py` module. The hash table handles the insertion, storage, and retrieval of package data parsed from the package file.
 ## Example Program Output
 ### Status report at 9:00 a.m.
 <img width="828" alt="postal9" src="https://github.com/PcGamer25/postal-routing/assets/24723469/f404d33d-6e58-4cd1-aeca-60593dbcdd10">
